@@ -1,6 +1,6 @@
 # NOTE #
 
-This module is not complete and even upon completion will require a change to the core Magic Mirror code base, which may take some time as it will represent a large fundamental change in the structure of modules and may take some time to get merged in - if at all.
+This module is not complete and even upon completion will require a change to the core Magic Mirror code base. Upon completion of those items, the core codebase changes represent a large fundamental change in the structure of modules and may take some time to get merged in - if at all. In the event my changes are not merged into the core Magic Mirror codebase, I will consider forking and bringing on additional developers to further help refactor and provide more developer friendly support for modules.
 
 ## To Do ##
 
