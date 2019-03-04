@@ -1,4 +1,4 @@
-Module.registerVue('MMM-TennisTracker', {
+Module.registerVue('MMM-Tennis-Tracker', {
 
     data: {
         // Currently storing this inside data for access post creation of Vue object

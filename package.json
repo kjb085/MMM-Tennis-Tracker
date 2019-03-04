@@ -1,0 +1,23 @@
+{
+  "name": "mmm-tennis-tracker",
+  "version": "1.0.0",
+  "description": "Magic Mirror 2 module to track tennis player scores",
+  "main": "MMM-TennisTracker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kjb085/MMM-Tennis-Tracker.git"
+  },
+  "author": "Kenn Breece",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kjb085/MMM-Tennis-Tracker/issues"
+  },
+  "homepage": "https://github.com/kjb085/MMM-Tennis-Tracker#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "request-promise": "^4.2.4"
+  }
+}
