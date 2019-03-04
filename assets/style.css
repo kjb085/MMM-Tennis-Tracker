@@ -1,0 +1,37 @@
+.hide {
+    display: none;
+}
+
+.temp-hide {
+    display: none;
+}
+
+.show .temp-hide {
+    display: initial;
+}
+
+.scores {
+    border-collapse: collapse;
+}
+
+.scores, td {
+    border: 2px solid black;
+}
+
+.player-name {
+    width: 10em;
+}
+
+.set-score {
+    width: 1em;
+    text-align: center;
+}
+
+.scores td {
+    padding: 5px;
+}
+
+.winner {
+    font-weight: bold;
+    font-style: italic;
+}

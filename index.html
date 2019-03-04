@@ -1,0 +1,28 @@
+<script type='text/x-template' id='match-template'>
+    <div class="match" name="match">
+        <div class="meta-info">
+            <span class="tournament-name">{{match.tournament}}</span> <span class="date">{{match.date}}</span>
+        </div>
+        <table class="scores">
+            <tbody>
+                <tr v-for="playerScore in match.playerScores" v-bind:class="{winner: playerScore.isWinner}">
+                    <td class="player-name">
+                        {{playerScore.player}}
+                    </td>
+                    <td v-for="score in playerScore.sets" class="set-score">
+                        <span v-if="isTiebreaker(score)">{{score[0]}}<sup>{{score[1]}}</sup></span>
+                        <scan v-else>{{score}}</scan>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</script>
+<div id='mmm-tennis-tracker'>
+    <h2 v-bind:class='{hide: !loading}'>LOADING</h2>
+    <div v-bind:class='{show: !loading}'>
+        <div class='temp-hide'>
+            <match v-for="n in defaults.displayCount" v-bind:match="displayedMatches[n - 1]"></match>
+        </div>
+    </div>
+</div>
